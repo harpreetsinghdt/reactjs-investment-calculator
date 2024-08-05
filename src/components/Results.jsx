@@ -13,10 +13,10 @@ const Results = ({ input, gradientStyle }) => {
       <thead>
         <tr>
           <th>Year</th>
-          <th>Investment Value</th>
+          <th>Invested Capital</th>
           <th>Interest Year</th>
           <th>Total Interest</th>
-          <th>Invested Capital</th>
+          <th>Investment Value</th>
         </tr>
       </thead>
       <tbody>
@@ -29,10 +29,10 @@ const Results = ({ input, gradientStyle }) => {
           return (
             <tr key={row.year}>
               <td>{row.year}</td>
-              <td>{formatter.format(row.valueEndOfYear)}</td>
+              <td>{formatter.format(totalAmountInvested)}</td>
               <td>{formatter.format(row.interest)}</td>
               <td>{formatter.format(totalInterest)}</td>
-              <td>{formatter.format(totalAmountInvested)}</td>
+              <td>{formatter.format(row.valueEndOfYear)}</td>
             </tr>
           );
         })}
