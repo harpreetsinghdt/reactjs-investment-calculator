@@ -22,10 +22,10 @@ function App() {
   });
 
   const [userInput, setUserinput] = useState({
-    initialInvestment: 10000,
-    annualInvestment: 1200,
-    expectedReturn: 6,
-    duration: 10,
+    initialInvestment: 500,
+    annualInvestment: 200,
+    expectedReturn: 7.75,
+    duration: 5,
   });
 
   let isInputValid = true;
