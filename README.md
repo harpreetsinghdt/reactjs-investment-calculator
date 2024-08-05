@@ -15,7 +15,7 @@ The ReactJS Investment Calculator project was aimed at creating a user-friendly 
 1. **State Management**: Initially struggled with managing state across multiple components. Solved this by implementing the Context API for better state management and data flow. (https://react.dev/learn/managing-state)
 2. **Lifting State Up**: Sometimes, you want the state of two components to always change together. To do it, remove state from both of them, move it to their closest common parent, and then pass it down to them via props. (https://react.dev/learn/sharing-state-between-components)
 3. **Outputing Content Condtionaly**: Sometimes, you what the content to show up as per some conditions to be true or false which is managed by conditional content rendering, you can conditionally render JSX using JavaScript syntax like if statements, &&, and ? : operators..(https://react.dev/learn/conditional-rendering)
-4. **Updating Gradient Color On State Change**: It was really a fun part to learn how gradient colors could be updated with the state change while rendering the updated results.
+4. **Updating Gradient Color On State Change**: It was really a fun part to learn how gradient backgroud colors could be updated with the state change while rendering the updated results.
 
 ### Soft Skills Developed
 
