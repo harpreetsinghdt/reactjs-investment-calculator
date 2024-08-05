@@ -7,14 +7,14 @@ The ReactJS Investment Calculator project was aimed at creating a user-friendly 
 ### Technical Skills Acquired
 
 1. **ReactJS**: Improved my understanding of React components, state management, and hooks. Learned how to structure a React application for scalability. (https://react.dev/learn)
-2. **Git and GitHub**: Enhanced my skills in version control, including branching, merging, and resolving conflicts. Learned how to effectively use GitHub for project collaboration and remote repository management.
-3. **Vercel Deployment**: Gained experience in deploying a React application on Vercel, including handling environment variables and configuring custom domains.
+2. **Git and GitHub**: Enhanced my skills in version control, including branching, merging, and resolving conflicts. Learned how to effectively use GitHub for project collaboration and remote repository management. (https://github.com/harpreetsinghdt/reactjs-investment-calculator)
+3. **Vercel Deployment**: Gained experience in deploying a React application on Vercel, including handling environment variables and configuring custom domains. (https://reactjs-investment-calculator.vercel.app/)
 
 ### Challenges and Solutions
 
-1. **State Management**: Initially struggled with managing state across multiple components. Solved this by implementing the Context API for better state management and data flow.
-2. **Deployment Issues**: Encountered errors while pushing to the remote repository due to branch mismatches. Resolved this by renaming the local branch and correctly configuring the remote repository.
-3. **Form Handling**: Faced difficulties in handling form validations and submissions. Overcame this by using React Hook Form, which simplified form management.
+1. **State Management**: Initially struggled with managing state across multiple components. Solved this by implementing the Context API for better state management and data flow. (https://react.dev/learn/managing-state)
+2. **Lifting State Up**: Sometimes, you want the state of two components to always change together. To do it, remove state from both of them, move it to their closest common parent, and then pass it down to them via props. (https://react.dev/learn/sharing-state-between-components)
+3. **Outputing Content Condtionaly**: Sometimes, you what the content to show up as per some conditions to be true or false which is managed by conditional content rendering, you can conditionally render JSX using JavaScript syntax like if statements, &&, and ? : operators..(https://react.dev/learn/conditional-rendering)
 
 ### Soft Skills Developed
 
@@ -31,5 +31,3 @@ The ReactJS Investment Calculator project was aimed at creating a user-friendly 
 ### Conclusion
 
 The ReactJS Investment Calculator project was a valuable learning experience that enhanced my technical and soft skills. The challenges faced and solutions implemented have prepared me for more complex projects in the future. I am now more confident in my ability to build and deploy scalable web applications using ReactJS and related technologies.
-
-- [Sharing State Between Components by Lifting state up]
